@@ -1,0 +1,314 @@
+{
+    "basics": {
+        "name": "Ronaldo Saheki",
+        "label": "DevOps Engineer at OLX Group",
+    	"email": "rsaheki@gmail.com",
+        "summary": "IT Professional with 10 years of experience and high expertise in automating operations tasks for deployment and configuration of workstations, IT infrastructure servers\/services, High Performance Computing\/Beowulf clusters, High Availability clusters and cloud application environments using a wide variety of open source technologies and tools, and using code and scripts written in bash and python. Previously responsible for IT operations, application delivery and business environment availability at PayWithMyBank and SocialBase, using cloud (AWS) and on-premises resources.  Familiarity with ITIL and Agile methodologies and responsible to create automation for new products developed in new offers at Chaordic, leader in ecommerce personalization in Latin America. Now in Global Vertical infrastructure role at OLX Group.\n\nBackground experience testing and implementing new solutions in the corporate IT infrastructure of Petrobras (Brazilian biggest company in the Forbes list). Skilled in installing new servers in many environments such as high availability and high performance Computer clusters, including the TRINDADE supercomputing cluster of Petrobras in Espirito Santo \u2013 Brazil which occupied the 100th position in the list of TOP500 most powerful (non-distributed) computer systems in the world, GRID computing implantation and support for high performance  applications, virtualization and remote visualization. \n\nExperienced in supporting and troubleshooting systems in complex corporate infrastructure, identifying and solving bottlenecks to onboard a client to the web platform and support a tenfold sudden growth and support production go live of omnichannel retail solutions for biggest e-commerces in Brazil, migration from datacenter to cloud and enthusiastic tester of new technologies.\n\nFamiliarity with ITIL and Agile methodologies",
+        "location": {
+            "address": "Rua Conde de Rio Maior, 16 - 4\u00ba Esq",
+            "postalCode": "1495-154",
+            "city": "Alges",
+            "countryCode": "PT",
+            "region": "Lisboa"
+        },
+        "profiles": [
+            {
+                "network": "linkedin",
+                "username": "ronaldosaheki",
+                "url": "https:\/\/www.linkedin.com\/in\/ronaldosaheki"
+            },
+            {
+                "network": "twitter",
+                "username": "rsaheki",
+                "url": "https:\/\/twitter.com\/rsaheki"
+            },
+            {
+                "network": "skype",
+                "username": "ronaldo.saheki",
+                "url": "skype:\/\/ronaldo.saheki"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "OLX Group",
+            "summary": "Tools and Technology stack to support the applications written mainly in PHP, Golang and Node.js: Gitlab, Redis and Memcached + Mcrouter, Solr, HAProxy, DynamoDB, RabbitMQ, AWS SQS, MariaDB and AWS RDS\/Aurora, StatusCake and NewRelic for monitoring and Ansible, Terraform and AWS for Infrastructure.\n\nResponsibilities\n\u25cf Ensure production availability is secure, problems are resolved as quickly as possible, reducing impact to our customers\n\u25cf Design infrastructure architectures that are highly available, scalable, and self-healing.\n\u25cf Design, manage, and maintain tools to automate operational processes.\n\u25cf Define and deploy monitoring, metrics, and logging systems.\n\u25cf Security engineering, server and network hardening, auditing and reporting",
+            "highlights": [
+                "Deployment of several microservices and server side rendering service with composer for a new Adpage for the Real Estate sites from OLX Europe on Kubernetes to replace legacy page. Product OKR objective.",
+                "Pushed the migration to cache cluster architecture using Redis 4 and LFU to replace old Memcached implementation without auto-discovery. Pack\/Squad OKR objective.",
+                "Finished migration from MariaDB galera clusters to Aurora RD\/S using ProxySql to warmup aurora nodes. Infrastructure OKR objective."
+
+            ],
+            "position": "DevOps Engineer",
+            "startDate": "2017-12-01",
+            "endDate": "2018-11-21"
+        },
+        {
+            "company": "Chaordic",
+            "description": "\u25cf Leader in personalization, search and recommendations services for ecommerce in Latin America.\n\u25cf 7 out of the top 10 biggest ecommerces in Brazil use our platform\n\u25cf 95% of the Brazilian internet shoppers were impacted by our solutions\n\nAchievements\n\u25cf \n\u25cf Responsible for cloud operations and the project go live to production of the New Offers team products for two of the biggest retail store in Brazil",
+            "summary": "\u25cf Responsible for all the infrastructure and its automation for the microsservice ecosystems to New Offers team products\n\nThe project in the news: http:\/\/www.portalnovarejo.com.br\/2017\/06\/23\/fatores-estrategias-omnichannel-varejo\/",
+            "highlights": [
+                "Created automation for the new greenfield solutions in New Offers team for omnichannel retail"
+            ],
+            "position": "Lead DevOps Engineer in New Offers",
+            "startDate": "2017-03-01",
+            "endDate": "2017-11-01"
+        },
+        {
+            "company": "SocialBase",
+            "summary": "Tools and Technology stack to support the company product written mainly in PHP and Python: Jenkins for CI\/Pipelines, Redis for cache, MongoDB, AMQP (RabbitMQ), ElasticSearch, MySQL, Ansible and AWS for insfrastructure.\n\nMain Project:\nRearchitecture processes and product and stress\/load tests and refactoring to allow onboarding one of the biggest insurance companies in Brazil. The traffic and MAU\/DAU scaling tenfold. Platform used in initial release for realtime communications and workers engagement in many campaigns as the social network launching and corporate holiday party.",
+            "highlights": [
+                "Reduced the average of unplanned downtime incidents per month from 8 to zero (3 months without unplanned downtime)  working on monitoring, autoscaling and with developers to make the application more resilient (circuitbreak\/fallbacks)",
+                "Tuned architectural components, services and linux kernel and worked alongside developers to scale the application tenfold (from 5k users to support 50k users) pinpointing bottlenecks during stress tests to onboard a large enterprise customer (Aug\/2016 to Nov\/2016)",
+                "Reduced cost of ec2 instances by more than 70% with use of AWS Spot Instances, mainly after working to scale the aplication tenfold and keeping the costs less than 50% higher to support 4 times the number of users",
+                "Improved security with detailed audit and control of privileges and removing hundreds of system accounts that weren't properly deprovisioned (broken automation) (Apr\/2016)",
+                "Created many metrics and automated tests to check for system thresholds and alarm before critical level as result of  investigative post-mortems and checks for blind spots on monitoring to know when the system breaks before a client calls",
+                "Improved the stability of CI\/CD automation reducing the average of production deploy automation issues from 4 per month to 0 (3 months without issues)"
+            ],
+            "position": "Lead DevOps Engineer",
+            "startDate": "2016-04-01",
+            "endDate": "2017-02-01"
+        },
+        {
+            "company": "PayWithMyBank",
+            "summary": "Tools and Technology stack used to support the company product written mainly in Java: Atlassian Bamboo for CI, Jetty, Nginx for reverse proxy, Oracle, PostgreSQL, Hadoop\/Hbase\/Phoenix, Logstash, AWS ELB, AWS Cloudformation, AWS CodeDeploy, Github, Qlik for BI.\nRelied heavily on netflix tools for java ecosystem in cloud with resilience and scalability and hashicorp tools to support cloud management, immutable server, baked AMI, fast deploys and rolling updates.",
+            "highlights": [
+                "Developed python Lambda functions to log, and announce using chatbot, key AWS API calls using CloudWatch Events announced in Jan\/2016 and a panel to show events using Lambda\/API gateway\/S3 with angularjs (serverless) (Mar 2016).",
+                "Updated support to AWS EC2 command\/SSM announced to support Linux in Dec 2015 (Jan 2016)\n\u25cf Running Phoenix over Hadoop\/HBase clusters POC in AWS EMR  (Jan 2016).",
+                "Updated application stack using CodeDeploy and CloudFormation integration announced in Oct 2015 (Nov 2015)\n\u25cf Created dashboard and new metric monitoring using AWS Cloudwatch Dashboard announced in AWS Re:Invent 2015 (Oct 2015)",
+                "Performed cross account migration and restructured VPCs and VPC-peering in AWS (Sep 2015)",
+                "Executed Oracle to Postgres migration and developed helper tools for Ora2pg to support the migration and validate migrated data using scripts and Python (Jul 2015)",
+                "Using Docker to package tools used in operations (Jun 2015)",
+                "PoC tests for logs and metrics monitoring using ELK,Graphite\/InfluxDB\/Grafana (Abr 2015).",
+                "Developed an automated data pipeline from the application to the BI system using AWS SWF, Python (Sqlparse,Boto, Fabric) and SQL scripts (Mar 2015)",
+                "Tested Troposphere to develop AWS cloudformation templates as code and added new Signal feature for update to reduce deployment time by half (Jan 2015)"
+            ],
+            "position": "Lead Devops Engineer",
+            "startDate": "2014-12-01",
+            "endDate": "2016-04-01"
+        },
+        {
+            "company": "Spassu",
+            "summary": "Tools and Technology stack to support HPC, inhouse and thirdparty Oil E&P applications:JBOSS EAP cluster, SystemImager, xCat, LSF, Torque (PBS) for dynamic cluster provisioning and scheduling, Puppet, Xen, VMWare, SAN and NAS storages for insfrastructure.",
+            "highlights": [
+                "Tested and implemented a solution to optimize bandwidth usage for updating Linux distro customized for onshore and offshore oil exploration drilling operations systems over WAN\/VSAT\/radio network links (2014).",
+                "Tested and implemented a free compression and opmization solution for the VNC protocol over VSAT\/Radio network links (2014).",
+                "Developed the proof of concepct in the technology test of Google StreetView and implanted the portal test \"GIOP StreetView\" of an Oil industrial plant in JavaScript (2013).",
+                "Tested and implemented first servers in regional IT using the Configuration Management tool  tool Puppet  (2013).",
+                " Contributor in the prospection and proof of concept of Remote HPC Workstation with VirtualGL\/VNC, VDI, PCoIP, RGS, RemoteFX protocols and PCoIP\/offload host board and virtualization as a corporate solution (2013).",
+                "Administration and provisioning of virtual servers utilizing VMWARE (2010)"
+            ],
+            "position": "Unix Analyst",
+            "startDate": "2009-12-01",
+            "endDate": "2014-12-01"
+        },
+        {
+            "company": "Petrobras",
+            "position": "Analista de Suporte UNIX da TIC-E&P",
+            "startDate": "2006-02-01",
+            "endDate": "2014-12-01"
+        },
+        {
+            "company": "Stefanini",
+            "summary": "\u25cf Recommended, planned, tested and implemented high availability\ncomputer cluster for a business application using Virtual IP\ntechnology implemented in the opensource Keepalived project (based in\nVRRP) (2008)\n\u25cf Customized opensource software SystemImager for Petrobras UO-ES HPC\nCluster provision (2007)\n\u25cf Recommended, planned, tested and implemented the first regional IT\ndepartment x86 Virtual Servers using Xen to achieve better independence\nto hardware (facilitate the migration and upgrade of the license servers) and\nbetter availability (2007)\n\u25cf Tested and documented the corporate Solaris 8 Branded Zone implementation in\nSolaris 10 (2006)",
+            "position": "Unix Analyst",
+            "startDate": "2006-02-01",
+            "endDate": "2009-12-01"
+        },
+        {
+            "company": "Sisnet S\/A",
+            "summary": "Responsibilities\n\u25cf Problem\/System analysis and ER Mapping\/Class diagram prototyping\n\u25cf Install, create and maintain database and triggers,stored procedures, functions and migration scripts in PostgreSQL and MS SQL Server\n\u25cf Control and develop C# source code for Multi-tier MVC Web applications using Subversion and Visual Studio \n\u25cf Unit and Integration tests",
+            "position": "Software Engineer Internship",
+            "startDate": "2005-01-01",
+            "endDate": "2006-02-01"
+        },
+        {
+            "company": "ISH Tecnologia",
+            "summary": "Responsibilities\n\u25cf Run external penetration\/vulnerability tests on client sites\n\u25cf Run crafted network test scripts to check routers and switches security, stability and ACL rules\n\u25cf Firewall configuration (Symantec and Linux) for security policy compliance\n\u25cf Perform log analysis with log aggregators and log checkers written in Perl",
+            "position": "IT Security Internship",
+            "startDate": "2004-01-01",
+            "endDate": "2005-01-01"
+        }
+    ],
+    "education": [
+        {
+            "institution": "FAESA",
+            "area": "Computer science",
+            "studyType": "Bachelor of Computer Science",
+            "startDate": "2015-01-01",
+            "endDate": "2017-01-01"
+        },
+        {
+            "institution": "Universidade Federal do Esp\u00edrito Santo",
+            "studyType": "Computer Science drop off",
+            "startDate": "2001-01-01",
+            "endDate": "2004-01-01"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Amazon Web Services (AWS)",
+            "level": "master"
+        },
+        {
+            "name": "Terraform",
+            "level": "master"
+        },
+        {
+            "name": "Ansible",
+            "level": "master"
+        },
+        {
+            "name": "Linux",
+            "level": "master"
+        },
+        {
+            "name": "Cluster",
+            "level": "master"
+        },
+        {
+            "name": "Bash",
+            "level": "master"
+        },
+        {
+            "name": "DNS",
+            "level": "master"
+        },
+        {
+            "name": "Infrastructure",
+            "level": "master"
+        },
+        {
+            "name": "High Availability",
+            "level": "master"
+        },
+        {
+            "name": "Cloud Computing",
+            "level": "master"
+        },
+        {
+            "name": "Networking",
+            "level": "advanced"
+        },
+        {
+            "name": "Docker",
+            "level": "advanced"
+        },
+        {
+            "name": "Kubernetes",
+            "level": "advanced"
+        },
+
+        {
+            "name": "Python",
+            "level": "advanced"
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "advanced"
+        },
+
+        {
+            "name": "Hadoop",
+            "level": "advanced"
+        },
+        {
+            "name": "Iptables",
+            "level": "advanced"
+        },
+
+        {
+            "name": "VMware ESX",
+            "level": "advanced"
+        },
+
+        {
+            "name": "LVS",
+            "level": "advanced"
+        },
+        {
+            "name": "MariaDB\/MysQL",
+            "level": "advanced"
+        },
+        {
+            "name": "Xen",
+            "level": "advanced"
+        },
+        {
+            "name": "Operating Systems",
+            "level": "advanced"
+        },
+        {
+            "name": "RabbitMQ",
+            "level": "advanced"
+        },
+        {
+            "name": "Agile Methodologies",
+            "level": "advanced"
+        },
+        {
+            "name": "Redis",
+            "level": "advanced"
+        },
+        {
+            "name": "Memcached",
+            "level": "advanced"
+        },
+        {
+            "name": "Puppet",
+            "level": "intermediate"
+        },
+        {
+            "name": "AIX",
+            "level": "intermediate"
+        },
+        {
+            "name": "Solaris",
+            "level": "intermediate"
+        },
+        {
+            "name": "xCAT",
+            "level": "intermediate"
+        },
+        {
+            "name": "DRBD",
+            "level": "intermediate"
+        },
+        {
+            "name": "GlusterFS",
+            "level": "intermediate"
+        },
+        {
+            "name": "Ceph",
+            "level": "intermediate"
+        },
+        {
+            "name": "ITIL",
+            "level": "advanced"
+        },
+        {
+            "name": "JBoss",
+            "level": "intermediate"
+        },
+        {
+            "name": "Oracle",
+            "level": "intermediate"
+        },
+        {
+            "name": "HAProxy",
+            "level": "intermediate"
+        },
+        {
+            "name": "Solr",
+            "level": "intermediate"
+        },
+        {
+            "name": "HBase",
+            "level": "intermediate"
+        },
+        {
+            "name": "ElasticSearch",
+            "level": "intermediate"
+        }
+    ]
+}
